@@ -20,7 +20,7 @@
         //window.alert(offs);
 	function call1 (callback) {
     $.ajax({
-		url:'https://graph.facebook.com/search?q=humans%20of&type=page&fields=name&limit=30&access_token=1552849614928522|e450063b9132c131fcdf529bf336fcb6',
+		url:'https://graph.facebook.com/search?q=humans%20of&type=page&fields=name&limit=30&access_token=<access token>',
 		dataType: 'json',
 		type: 'get',
 		cache: true,
